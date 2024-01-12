@@ -1,0 +1,26 @@
+PODS:
+  - AppAuth (0.9.1)
+  - GTMAppAuth (0.6.1):
+    - AppAuth (~> 0.9.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.10):
+    - GTMSessionFetcher/Full (= 1.1.10)
+  - GTMSessionFetcher/Core (1.1.10)
+  - GTMSessionFetcher/Full (1.1.10):
+    - GTMSessionFetcher/Core (= 1.1.10)
+
+DEPENDENCIES:
+  - GTMAppAuth (from `../`)
+
+EXTERNAL SOURCES:
+  GTMAppAuth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppAuth: f7d9a2ce4ffe79a62a8b0c1d0938e88d9809b846
+  GTMAppAuth: ae710e1e53431e2bcdd57f9f92daa16a58a2947d
+  GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
+
+PODFILE CHECKSUM: a4d98e1cebe44e5759ef32f62394d251f0c88346
+
+COCOAPODS: 1.2.1
